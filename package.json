@@ -1,0 +1,27 @@
+{
+  "name": "@best-spaces/sql-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 src/index.js",
+    "start:sql": "chmod +x script-database.sh && ./script-database.sh"
+  },
+  "author": "Diogo Souza <diogo.souza@msn.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "stream-csv-as-json": "^1.0.4",
+    "stream-json": "^1.8.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/node": "^20.8.7",
+    "@types/split2": "^4.2.2",
+    "@types/stream-csv-as-json": "^1.0.3",
+    "@types/stream-json": "^1.7.5",
+    "@types/uuid": "^9.0.6"
+  }
+}

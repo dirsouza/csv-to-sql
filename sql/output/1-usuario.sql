@@ -1,0 +1,1 @@
+INSERT IGNORE INTO users (id, name, email, password, role) VALUES ('79eff6cb-9166-4190-8c54-968f941eefbb', 'Administrador', 'suporte@bestspaces.com.br', '$2b$10$OQdO8deSj.bdkoHeD3Ptx.NgcnSB24HmMflfS3hj17RaFEKbH9dB2', 'ADMIN');
