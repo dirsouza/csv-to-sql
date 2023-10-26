@@ -11,6 +11,6 @@ FOLDER_SCRIPTS="./sql/output"
 for script in "$FOLDER_SCRIPTS"/*; do
   if [ -f "$script" ]; then
     echo "Processing the SQL script: $(basename "$script")"
-    docker exec -i mysql mysql -u$MYSQL_USER -p$MYSQL_PASSWORD -D $MYSQL_DATABASE <$script
+    docker exec -i mysql mysql -u$MYSQL_USER -p$MYSQL_PASSWORD --default-character-set=utf8mb4 -D $MYSQL_DATABASE <$script
   fi
 done
