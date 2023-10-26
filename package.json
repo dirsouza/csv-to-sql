@@ -1,12 +1,12 @@
 {
-  "name": "@best-spaces/sql-file",
+  "name": "@dirsouza/csv-to-sql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node --max-old-space-size=8192 src/index.js",
-    "start:sql": "chmod +x script-database.sh && ./script-database.sh"
+    "start:script-db": "chmod +x script-database.sh && ./script-database.sh"
   },
   "author": "Diogo Souza <diogo.souza@msn.com>",
   "license": "ISC",
